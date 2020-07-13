@@ -4,9 +4,6 @@ public class Test {
     private Integer id;
     private String name;
 
-    public Test(){
-
-    }
     public Integer getId() {
         return id;
     }
