@@ -3,7 +3,7 @@
 
 <mapper namespace="com.cw.system.mapper.TestMapper">
     <select id="list" resultType="com.cw.system.domain.Test">
-        select `id`,`name` from `test`
+        select * from test
     </select>
 </mapper>
 
