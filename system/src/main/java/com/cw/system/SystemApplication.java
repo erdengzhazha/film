@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 @SpringBootApplication
 @EnableEurekaClient
 @ComponentScan("com.cw") //所有的带有@Compenent @Controller @Server @RestController 会被扫描到
-@MapperScan("com.cw.system.mapper") //扫描mapper接口的映射类
+@MapperScan("com.cw.server.mapper") //扫描mapper接口的映射类
 public class SystemApplication {
 
     private static final Logger logger = LoggerFactory.getLogger(SystemApplication.class);

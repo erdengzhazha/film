@@ -47,6 +47,11 @@
                 <artifactId>mysql-connector-java</artifactId>
                 <version>5.1.37</version>
             </dependency>
+            <dependency>
+                <groupId>com.cw</groupId>
+                <artifactId>server</artifactId>
+                <version>1.0.0</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -58,11 +63,11 @@
             </plugin>
         </plugins>
     </build>
-    <pluginRepositories>
-        <pluginRepository>
-            <id>alimaven spring plugin</id>
-            <name>alimaven spring plugin</name>
-            <url>https://maven.aliyun.com/repository/spring-plugin</url>
-        </pluginRepository>
-    </pluginRepositories>
+<!--    <pluginRepositories>-->
+<!--        <pluginRepository>-->
+<!--            <id>alimaven spring plugin</id>-->
+<!--            <name>alimaven spring plugin</name>-->
+<!--            <url>https://maven.aliyun.com/repository/spring-plugin</url>-->
+<!--        </pluginRepository>-->
+<!--    </pluginRepositories>-->
 </project>
