@@ -15,7 +15,7 @@ public class TestController {
     private TestService testService;
 
     @RequestMapping("/hello")
-    public Test test(){
+    public List<Test> test(){
         return testService.list();
     }
 }
