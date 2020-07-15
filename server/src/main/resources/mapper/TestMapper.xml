@@ -161,7 +161,4 @@
     set name = #{name,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
-    <select id="list" resultType="com.cw.server.domain.Test">
-        select * from film.test
-    </select>
 </mapper>
